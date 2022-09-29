@@ -1,0 +1,82 @@
+#upper{
+    width: 50%;
+   
+    height: 100vh;
+    margin: auto;
+}
+#upper>img{
+    width:40%;
+    margin-left: 200px;
+}
+#upper>h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -10px;
+}
+#upper>h1+p{
+    text-align: center;
+    margin-top: -20px;
+}
+.btn1{
+    background-color: blue;
+    color: white;
+    margin-left: 150px;
+    width: 55%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer
+}
+.btn2{
+    margin-left: 150px;
+    width: 55%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn2+p{
+    text-align: center;
+    color: grey;
+}
+.new_email{
+    margin-left: 150px;
+    font-weight: bold;
+
+}
+input,input+p,span+p{
+    margin-left: 150px;
+    font-weight: bold;
+}
+input{
+    width: 55%;
+    height: 5vh;
+}
+#login{
+    background-color: blue;
+    color: white;
+    margin-left: 150px;
+    width: 55%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top: 30px;
+}
+.forgot{
+    color: blue;
+    margin-right: 70px;
+    margin-left: 170px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sso{
+    color: blue;
+}
+.sign-up{
+    color: blue;
+    margin-right: 70px;
+    margin-left:0px;
+    font-size: 25px;
+}
+.new{
+    font-size: 25px;
+}
