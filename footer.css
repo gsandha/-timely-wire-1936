@@ -1,0 +1,17 @@
+#footer{
+    display: flex;
+    justify-content: center;
+   background-color:rgb(236, 237, 239);
+   
+}
+#footer>div{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#footer p{
+    cursor: pointer;
+    line-height: 10px;
+}
+#footer u{
+    font-weight: bold;
+}
