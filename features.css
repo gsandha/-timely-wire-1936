@@ -1,0 +1,143 @@
+#page1{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+#page1 div{
+    width: 50%;
+}
+#page1 div>img{
+    width: 100%;
+}
+#page1 div h1{
+    width: 90%;
+
+    font-size: 50px;
+    margin-top: -5px;
+}
+#page1 div p{
+    width: 90%;
+
+    font-size: 18px;
+}
+#page1>div>button{
+    background-color:#196CFF;
+    border-color: #196CFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#page1>div>button:hover{
+    background-color: blue;
+}
+#page2{
+    background-color: rgb(236, 237, 239);
+}
+#page2part1{
+background-color: rgb(236, 237, 239);
+height: 80vh;
+width: 36%;
+margin: auto;
+}
+#page2part1>h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    
+}
+#page2part1>p{
+
+
+}
+#page2part2{
+ 
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+   
+    margin-left: -200px;
+}
+#page2part2>div>img{
+    margin-top: 20px;
+    width: 50%;
+    margin: auto;
+}
+#page2part2>div>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#page3{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 80%;
+margin: auto;
+margin-top: 50px;
+}
+/* #page3>div{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 20px;
+} */
+#page3>div>img{
+    width: 100%;
+   
+}
+#page3>div>h2{
+
+    width: 80%;
+    font-size: 40px;
+}
+#page3>div>p{
+
+    width: 84%; 
+    font-size: 20px;
+}
+#page3>div{
+    height: 80vh;
+}
+#next{
+  
+    font-size: 18px;
+    margin-left: 40px;
+}
+#page3>div>button{
+    color: #196CFF;
+    padding: 10px;
+ background-color: white;
+  border-color: #196CFF;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 30px;
+}
+#page3>div>button:hover{
+    background-color: blue;
+}
+#imgdiv>img{
+    height: 50vh;
+    width: 100%;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+   background-color:rgb(236, 237, 239);
+   
+}
+#footer>div{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#footer p{
+    cursor: pointer;
+    line-height: 10px;
+}
+#footer u{
+    font-weight: bold;
+}
