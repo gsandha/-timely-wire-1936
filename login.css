@@ -4,10 +4,10 @@
     height: 100vh;
     margin: auto;
 }
-#upper>img{
+/* #upper>img{
     width:40%;
     margin-left: 200px;
-}
+} */
 #upper>h1{
     text-align: center;
     font-size: 50px;
@@ -16,6 +16,11 @@
 #upper>h1+p{
     text-align: center;
     margin-top: -20px;
+}
+#upper>a>img{
+    cursor: pointer;
+    width:40%;
+    margin-left: 200px;
 }
 .btn1{
     background-color: blue;
